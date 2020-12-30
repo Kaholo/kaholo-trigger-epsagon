@@ -9,8 +9,8 @@
   "methods": [
     {
       "name": "ALERT_WEBHOOK",
-      "route": "post /webhook/Epsagon/alert",
-      "viewName": "Find user on call",
+      "route": "post /webhook/epsagon/alert",
+      "viewName": "Alert from Epsagon",
       "params": [
       ]
     }

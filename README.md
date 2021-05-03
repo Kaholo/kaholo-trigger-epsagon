@@ -1,8 +1,14 @@
 # kaholo-trigger-epsagon
-Kaholo Trigger for Epsagon
+Kaholo Webhook Trigger for [Epsagon](epsagon.com)
 
-Kaholo trigger for [epsagon.com](epsagon.com)
+## How to use:
+After installing the plugin on Kaholo,
+Follow this [documentation](https://docs.epsagon.com/docs/webhooks) to define a webhook on your Epsagon account. 
 
-1) Currently there are no parameters needed for this trigger.
-2) Exposed route ...//webhook/Epsagon/alert
-3) Method is POST
+## Trigger Method: Alert from Epsagon
+Triggers whenever there is an alert sent from Epsagon.
+
+### Webhook URL:
+**{KAHOLO_URL}/webhook/Epsagon/alert**
+
+### Parameters: **None**
